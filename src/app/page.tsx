@@ -1,4 +1,4 @@
-import { SomeWidget } from '@/widgets'
+import { SomeWidget } from '@/widgets/SomeWidget'
 
 import { Button } from '@/shared/ui'
 
