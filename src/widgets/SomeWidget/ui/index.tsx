@@ -1,3 +1,3 @@
 export const SomeWidget = () => {
-  return <div>SomeWidget 42</div>
+  return <div>SomeWidget 41</div>
 }
