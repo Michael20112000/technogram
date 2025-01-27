@@ -2,12 +2,17 @@
   "name": "technogram",
   "version": "0.1.0",
   "private": true,
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "npx prettier ./src",
     "check-fsd": "npx steiger ./src"
   },
   "dependencies": {

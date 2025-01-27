@@ -1,1 +1,1 @@
-export { SomeWidget } from "./ui"
+export { SomeWidget } from './ui'
