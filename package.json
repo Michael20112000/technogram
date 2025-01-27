@@ -13,7 +13,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "check-fsd": "npx steiger ./src"
   },
   "dependencies": {
     "next": "15.1.6",
