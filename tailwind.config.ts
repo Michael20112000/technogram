@@ -5,8 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
+        color1: 'red',
+        color2: 'green',
+        color3: 'blue',
       },
     },
   },
